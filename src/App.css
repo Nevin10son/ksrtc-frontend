@@ -45,10 +45,12 @@
 label{
   color: rgb(46, 28, 128);
 }
-input[type=text]{
+input[type=text],[type=email],[type=password]{
   border: 2px solid rgb(79, 206, 238);
 }
-
+select{
+  border:2px solid rgb(79, 206, 238);
+}
 .footer{
   height: 100px;
   background-color: #83B4FF;
