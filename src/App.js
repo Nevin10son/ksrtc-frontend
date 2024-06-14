@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import AddBus from './components/AddBus';
 import SearchBus from './components/SearchBus';
+import Viewall from './components/Viewall';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Signup/>
       <AddBus/>
       <SearchBus/>
+      <Viewall/>
     </div>
   );
 }
