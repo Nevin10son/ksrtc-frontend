@@ -5,6 +5,7 @@ import Signup from './components/Signup';
 import AddBus from './components/AddBus';
 import SearchBus from './components/SearchBus';
 import Viewall from './components/Viewall';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AddBus/>
       <SearchBus/>
       <Viewall/>
+      <NavBar/>
     </div>
   );
 }
